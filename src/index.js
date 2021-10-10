@@ -1,3 +1,5 @@
+import "./styles/index.scss";
+
 const nerkoRecipe =  {
   letherStripe: 2,
   ironIngot: 1,
