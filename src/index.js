@@ -1,16 +1,5 @@
-import "./styles/index.scss";
+import {render} from "react-dom";
+import App from "./components/App";
 
-const nerkoRecipe =  {
-  letherStripe: 2,
-  ironIngot: 1,
-  refineMoonstone: 4
-};
+render (<App />, document.getElementById("root"));
 
-const nerkoletsRecipe = {
-  ...nerkoRecipe,
-  leather: 1,
-  refineMoonstone: 4,
-};
-
-console.log(nerkoRecipe);
-console.log(nerkoletsRecipe);
